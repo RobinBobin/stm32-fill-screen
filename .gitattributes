@@ -1,0 +1,11 @@
+# Set default behavior to automatically normalize all text files to LF on commit
+* text=auto
+
+# Force all source code files to use LF line endings in the repository
+*.c text eol=lf
+*.h text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+
+# Ensure the CubeMX configuration file retains its raw format
+*.ioc text
