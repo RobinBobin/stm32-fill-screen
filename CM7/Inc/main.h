@@ -67,10 +67,18 @@ void Error_Handler(void);
 #define STLINK_RX_GPIO_Port GPIOA
 #define CEC_CK_MCO1_Pin GPIO_PIN_8
 #define CEC_CK_MCO1_GPIO_Port GPIOA
+#define LED1_Pin GPIO_PIN_12
+#define LED1_GPIO_Port GPIOI
+#define LED2_Pin GPIO_PIN_13
+#define LED2_GPIO_Port GPIOI
+#define LED3_Pin GPIO_PIN_14
+#define LED3_GPIO_Port GPIOI
 #define OSC_OUT_Pin GPIO_PIN_1
 #define OSC_OUT_GPIO_Port GPIOH
 #define OSC_IN_Pin GPIO_PIN_0
 #define OSC_IN_GPIO_Port GPIOH
+#define LED4_Pin GPIO_PIN_15
+#define LED4_GPIO_Port GPIOI
 #define DSI_TE_Pin GPIO_PIN_2
 #define DSI_TE_GPIO_Port GPIOJ
 
